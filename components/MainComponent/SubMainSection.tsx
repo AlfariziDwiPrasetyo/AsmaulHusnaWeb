@@ -9,7 +9,9 @@ interface SubMainSection {
 
 const SubMainSection: React.FC<SubMainSection> = ({ filteredData }) => {
   return filteredData == null ? (
-    "loading"
+    <div className="mt-10 flex items-center justify-center">
+      <span className="loading loading-dots loading-lg"></span>
+    </div>
   ) : (
     <div className="flex mt-10 justify-center items-center w-full">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
