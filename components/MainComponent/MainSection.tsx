@@ -57,7 +57,7 @@ function MainSection() {
     <>
       <section>
         <div className="max-w-full flex justify-center items-center">
-          <div className="w-6/12">
+          <div className="md:w-6/12 w-4/6">
             <label className="input input-bordered flex items-center gap-2">
               <input
                 ref={inputRef}
