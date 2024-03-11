@@ -11,10 +11,10 @@
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
-    /* animation-name: scroll;
+    animation-name: scroll;
     animation-duration: 2.2s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-    animation-iteration-count: infinite; */
+    animation-iteration-count: infinite;
   }
   .scroller {
     width: 1px;
